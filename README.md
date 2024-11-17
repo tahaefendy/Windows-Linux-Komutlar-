@@ -46,6 +46,13 @@ Belirtilen klasöre geçiş yapar.
 
 ## Dosya Komutları
 
+#### **start** Komutu
+Bir dosya veya uygulamayı başlatır.
+```
+> Kullanım Şekli : start uygulama.exe
+```
+![photo_2024-11-17_03-04-41](https://github.com/user-attachments/assets/c506113c-b5e3-460e-bcd5-5f8fd2d5eb89)
+
 #### **dir** Komutu
 Geçerli dizindeki dosya ve klasörleri listeler.
 ```
@@ -170,13 +177,6 @@ Güncel saati görüntüler.
 > Kullanım Şekli : time /T
 ```
 ![photo_2024-11-17_03-03-03](https://github.com/user-attachments/assets/a27617e1-634f-494a-becd-826b76ab57c5)
-
-#### **start** Komutu
-Bir dosya veya uygulamayı başlatır.
-```
-> Kullanım Şekli : start uygulama.exe
-```
-![photo_2024-11-17_03-04-41](https://github.com/user-attachments/assets/c506113c-b5e3-460e-bcd5-5f8fd2d5eb89)
 
 ## Disk Yönetimi ve Kapatma Komutları
 
