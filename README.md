@@ -1,210 +1,201 @@
-# Windows Komutları
+# Windows DOS Komutları
 
-Bu projede en çok kullanılan windows komutlarına yer verilmiştir.
+Bu proje, DOS komutlarını öğrenmek isteyen başlangıç seviyesindeki kullanıcılar için hazırlanmış bir rehber niteliğindedir. Komutlar kategorilere ayrılarak kullanım şekilleri ve örnekleriyle sunulmuştur.
 
 ## Klasör Komutları
 
-#### `CD` Komutu
-Bu komut klasöre girmek için kullanılır.<br>
->Kullanım Şekli: cd  Klasör_Adı
+#### **mkdir** Komutu
+mkdir komutu, yeni bir klasör oluşturmak için kullanılır.
 ```
-cd belgelerim
+> Kullanım Şekli: mkdir Yeni_Klasör
 ```
-![cd](https://github.com/user-attachments/assets/dae98637-1ea0-40ed-9eca-3a6cd3d554da)
->[!WARNING]
->Klasör adı yazarken klasörün adını hatasız yazının büyük harf küçük harf uyumuna dikkat ediniz.
+![photo_2024-11-17_02-27-23](https://github.com/user-attachments/assets/22f3a6cf-bb6a-474a-959d-65d3a781566c)
+![photo_2024-11-17_02-27-33](https://github.com/user-attachments/assets/e7a774e1-d58c-480b-a66a-9ea6d61f9798)
 
-#### `DİR` Komutu
-Bu komut cmdnin konumundaki dosyanın içerisinde bulunan şeyleri listeler.<br>
->Kullanım Şekli : dir
+> [!IMPORTANT]
+> Eğer klasör isminiz boşluk içeriyorsa, klasör adını tırnak işaretleri içine almayı unutmayın
 ```
-dir
+> Kullanım Şekli: mkdir "Yeni Klasör"
 ```
-![dir](https://github.com/user-attachments/assets/c8adbd48-08ce-4c56-bc89-7c3971c79d47)
 
+#### **rmdir** Komutu
+rmdir komutu, belirtilen bir klasörü silmek için kullanılır.
+```
+> Kullanım Şekli : rmdir Silinecek_Klasör
+```
+![photo_2024-11-17_03-08-11](https://github.com/user-attachments/assets/e45916c0-3ceb-4950-887d-4974c40232ed)
+![photo_2024-11-17_02-36-48](https://github.com/user-attachments/assets/d08b8fc0-28b3-4b73-b307-bccd2ea73db8)
 
-#### `MKDİR` Komutu
-Bu komut klosör içerisinde yeni bir klasör açmak için kullanılır.<br>
->Kullanım Şekli: mkdir Klasör_Adı
-```
-mkdir windows_komutları
-```
-![mkdir](https://github.com/user-attachments/assets/3f7f00d4-7e59-4b74-8bdb-91d13ecbf8aa)
+> [!CAUTION]
+> Klasörün içinde dosya varsa, rmdir komutu çalışmaz. Klasörü silebilmek için önce içindeki dosyaları silmeniz gerekebilir.
 
->[!TIP]
->CD ile dosyaya girerken <ins>Tab</ins> tuşu ile son kaydedilen belge adını anında yazabilirsiniz.
+#### **cd** Komutu
+Belirtilen klasöre geçiş yapar.
+```
+> Kullanım Şekli: cd Belgelerim
+```
+![photo_2024-11-17_02-36-51](https://github.com/user-attachments/assets/cce12c06-3987-445c-a2fa-bdbc74c91d1d)
 
-#### `COPY` Komutu
-Bu komut kopyalama komutu olarak geçer bir belgeyi kopyalamaya yarar.<br>
->Kullanım Şekli : copy NUL dosyaadı
-```
-copy NUL yeni
-```
-![copy](https://github.com/user-attachments/assets/ff094d58-b310-4bf0-b7d9-1dadddb68328)
->[!NOTE]
->Belge oluşturmak için bir kod bulunmadığı için <ins>copy</ins> komudu kullanılır.
+> [!WARNING]
+> Eğer klasör adı boşluk içeriyorsa, tırnak işaretleri kullanarak yazmalısınız.
 
-#### `MOVE` Komutu
-Bu komut belgenin veya klasörün adını değiştirmeye yarar.<br>
->Kullanım şekli : move dosyaadı yenidosyaadı
-```
-move yeniisim isimdeğişme
-```
-![move](https://github.com/user-attachments/assets/41f88e07-8ee3-4311-9cb8-ee9d4fbc104c)
+![photo_2024-11-17_02-36-56](https://github.com/user-attachments/assets/fb98b16e-9c47-4124-a534-4965ea19ed06)
 
-#### `ECHO` Komutu
-Bu komut belgenin içerisine yazı yazmaya yarar.<br>
->Kullanım Şekli : echo yazı > dosyaadı
-```
-echo "merhaba dünya" > Kişiler
-```
-![echo](https://github.com/user-attachments/assets/a18c7657-021d-4cd9-b936-0a95e14306f6)
->[!TIP]
->İşlem çıktısı aşağıdaki gibidir.
->![çıktı](https://github.com/user-attachments/assets/5bd29902-525a-4f3d-bd39-baf2f5181060)
+> [!TIP]
+> Mevcut dizinden bir üst dizine çıkmak için `cd ..` komudunu kullanabilirsiniz.
 
-#### `FİND` Komutu
-Bu komut belgede metin aramaya yarar.<br>
->Kullanım Şekli : find aranacakmetin dosyaadı
+## Dosya Komutları
+
+#### **dir** Komutu
+Geçerli dizindeki dosya ve klasörleri listeler.
 ```
-find "Merhaba" kişiler.txt
+> Kullanım Şekli : dir
 ```
-![find](https://github.com/user-attachments/assets/cfa2efb9-b49e-49e9-99ff-0d1fe57fa4e7)
->[!IMPORTANT]
->Burda aranacak metin bire bir aynı olmalıdır büyük küçük harfe dikkat edilmelidir.
+![photo_2024-11-17_02-45-39](https://github.com/user-attachments/assets/ec77c519-3ff4-4db5-afec-4c892ea94e04)
+
+#### **tree** Komutu
+Belirtilen bir yolun hiyerarşik dizin yapısını görüntüler.
+```
+> Kullanım şekli : tree
+```
+![photo_2024-11-17_02-47-45](https://github.com/user-attachments/assets/af661a79-c7fb-4bb0-9cef-6aa12dac2fc3)
+
+#### **echo** Komutu
+Belirtilen metni ekrana yazdırır veya bir dosyaya kaydeder.
+```
+> Kullanım Şekli : echo "Merhaba, Dünya!"
+```
+![photo_2024-11-17_02-49-29](https://github.com/user-attachments/assets/ebeed586-6159-45f4-aa04-ed1f4d984681)
+![photo_2024-11-17_02-49-32](https://github.com/user-attachments/assets/92776085-5bc2-4e9e-bfdc-01fddc2d87e9)
+
+> [!TIP]
+> Eğer metni bir dosyaya yazdırmak isterseniz, > işaretini kullanarak yönlendirebilirsiniz.
+
+#### **type** Komutu
+Belirtilen dosyanın içeriğini görüntüler.
+```
+> Kullanım Şekli : type Dosya_Adi.txt
+```
+![photo_2024-11-17_02-51-03](https://github.com/user-attachments/assets/025cc70f-22db-48ff-8c9a-87c60e24d781)
+
+> [!WARNING]
+> Arama sırasında büyük ve küçük harf duyarlılığına dikkat edin. Metni tam yazmalısınız, aksi takdirde sonuç almayabilirsiniz.
+
+#### **find** Komutu
+Bir dosyada belirli bir metni arar.
+```
+> Kullanım şekli : find "Kelime" Dosya_Adi.txt
+```
+![photo_2024-11-17_02-52-55](https://github.com/user-attachments/assets/1b14e23e-1580-4f9a-88a9-4362d692657b)
+
+> [!WARNING]
+> Arama sırasında büyük ve küçük harf duyarlılığına dikkat edin. Metni tam yazmalısınız, aksi takdirde sonuç almayabilirsiniz.
+
+#### **copy** Komutu
+Bir dosyayı başka bir yere kopyalar.
+```
+> Kullanım Şekli : copy Ornek_Dosya.txt Yeni_Klasor
+```
+![photo_2024-11-17_02-54-25](https://github.com/user-attachments/assets/b77dd949-2a16-4576-83ff-355bf4c8ac85)
+![photo_2024-11-17_02-54-27](https://github.com/user-attachments/assets/4ac9d68d-cce0-4400-968e-0fbda8440c85)
+
+> [!IMPORTANT]
+> Kopyalanacak dosyanın yolu tam olarak belirtilmelidir. Klasör adı boşluk içeriyorsa, tırnak işaretleri kullanın.
+
+#### **move** Komutu
+Bir dosyayı başka bir konuma taşır.
+```
+> move Ornek_Dosya.txt Hedef_Klasör
+```
+![photo_2024-11-17_02-55-49](https://github.com/user-attachments/assets/9c1d9121-94a8-4779-a02e-64a4648117bd)
+![photo_2024-11-17_02-55-52](https://github.com/user-attachments/assets/05fcaa5a-0113-4b48-a647-2fef462d3543)
+
+> [!WARNING]
+> Taşıma işlemi, dosyayı orijinal konumundan kaldırır. Eğer yanlış yere taşırsanız, dosya kaybolabilir.
+
+#### **ren** Komutu
+Bir dosyanın veya klasörün adını değiştirir.
+```
+> Kullanım Şekli : ren Eski_Adi.txt Yeni_Adi.txt
+```
+![photo_2024-11-17_02-57-27](https://github.com/user-attachments/assets/b6e98379-2f59-4c1f-82c9-3a06cef0b7e9)
+![photo_2024-11-17_02-57-33](https://github.com/user-attachments/assets/542508f2-9ede-48d6-a50b-a6d5e295291f)
+
+> [!CAUTION]
+> Dosya adı değiştirildiğinde, dosyanın uzantısı (örneğin .txt) değiştirilemez.
+
+#### **del** Komutu
+Belirtilen dosyayı kalıcı olarak siler.
+```
+> Kullanım Şekli : del Silinecek_Dosya.txt
+```
+![photo_2024-11-17_02-58-44](https://github.com/user-attachments/assets/20236bcc-7d87-40ac-837d-369082edc668)
+![photo_2024-11-17_02-58-46](https://github.com/user-attachments/assets/fbecf2c0-03a5-46e0-8f2d-b804002d26c3)
 
 ## Sistem Komutları
 
-#### `DRİVERQUERY` Komutu
-Bu komut bilgisayarınızda yüklü sürücüleri listelemeye yarar.<br>
->Kullanım şekli : driverquery
+#### **systeminfo** Komutu
+Bilgisayarın sistem bilgilerini görüntüler.
 ```
-driverquery
+> Kullanım Şekli : systeminfo
 ```
-![driverquery](https://github.com/user-attachments/assets/220fdec8-19d8-49f2-9d6b-64d282262e27)
+![photo_2024-11-17_03-00-00](https://github.com/user-attachments/assets/06040b2d-97ea-42ee-aced-041672de2231)
 
-#### `TASKLIST` Komutu
-Bu komut çalışan işlemleri listeler.<br>
->Kullanım Şekli : tasklist
+#### **ipconfig** Komutu
+Ağ bağdaştırıcılarının yapılandırmalarını ve IP adreslerini gösterir.
 ```
-tasklist
+>Kullanım şekli : ipconfig
 ```
-![tasklist](https://github.com/user-attachments/assets/3bb264be-89b3-4560-bafa-3a1c20a16752)
+![photo_2024-11-17_03-01-09](https://github.com/user-attachments/assets/728c2716-8909-4207-a976-b72219c53f1b)
 
-#### `DATE` Komutu
-Bu komut bilgisayarınızın tarihini değiştirir.<br>
->Kullanım Şekli : date
+#### **tasklist** Komutu
+Çalışan işlemleri listeler.
 ```
-date
+> Kullanım Şekli : tasklist
 ```
->[!TIP]
->```
->date /T
->```
->Kodu ile mevcut tarihi görebilirsiniz.
+![photo_2024-11-17_03-01-55](https://github.com/user-attachments/assets/0c7361ab-d5ea-4209-b1ac-2a16a6dbec70)
 
-![date](https://github.com/user-attachments/assets/9143eee5-7301-4326-adb2-e41b1c8e8927)
->[!IMPORTANT]
->Bu başlık altındaki komutlar yönetici yetkilerine ihtiyaç duyar.
->Bu nedenle uygulamadan önce komut istemini yönetici olarak başlatmanız gerekiyor.
->Aksi takdirde erişim engellendi hatası alacaksınız.
+## Tarih ve Saat Komutları
 
-#### `TİME` Komutu
-Bu komut bilgisayarınızın saatini değiştirir.<br>
->Kullanım Şekli : time
+#### **date /T** Komutu
+Güncel tarihi görüntüler.
 ```
-time
+>Kullanım Şekli : date /T
 ```
->[!TIP]
->```
->time /T
->```
->Kodu ile mevcut saati görebilirsiniz.
+![photo_2024-11-17_03-03-01](https://github.com/user-attachments/assets/5495895d-1b2f-4cef-a1eb-f01a0df42cba)
 
-![time](https://github.com/user-attachments/assets/d41a7dff-887c-46c7-abf3-55a1477fc6e5)
->[!IMPORTANT]
->Bu başlık altındaki komutlar yönetici yetkilerine ihtiyaç duyar.
->Bu nedenle uygulamadan önce komut istemini yönetici olarak başlatmanız gerekiyor.
->Aksi takdirde erişim engellendi hatası alacaksınız.
+#### **time /T** Komutu
+Güncel saati görüntüler.
+```
+> Kullanım Şekli : time /T
+```
+![photo_2024-11-17_03-03-03](https://github.com/user-attachments/assets/a27617e1-634f-494a-becd-826b76ab57c5)
 
-#### `DİSKPART` Komutu
-Bu komut disk yönetim merkezini açar.<br>
->Kullanım Şekli : diskpart
+#### **start** Komutu
+Bir dosya veya uygulamayı başlatır.
 ```
-diskpart
+> Kullanım Şekli : start uygulama.exe
 ```
-![diskpart](https://github.com/user-attachments/assets/5d41869e-ce96-4f5e-969a-450c4bc15ae6)
+![photo_2024-11-17_03-04-41](https://github.com/user-attachments/assets/c506113c-b5e3-460e-bcd5-5f8fd2d5eb89)
 
-#### `LIST DISK` Komutu
-Bu komut bilgisayarınızdaki diskleri listeler.<br>
->Kullanım Şekli : list disk
-```
-list disk
-```
->[!TIP]
->Bu komut disk yönetim merkezinde çalışır.
+## Disk Yönetimi ve Kapatma Komutları
 
-![disklist](https://github.com/user-attachments/assets/d9d55d62-f3d5-4fa7-81f8-00f993c654ee)
+#### **diskpart** Komutu
+Disk bölümlerini ve yapılandırmalarını yönetmek için kullanılır.
+```
+> Kullanım Şekli : diskpart
+```
+![photo_2024-11-17_03-06-34](https://github.com/user-attachments/assets/e26e167f-d22e-4f78-9dda-5625102a15e7)
 
-## CMD ile Uygulama açma
+> [!WARNING]
+> Disk bölümleme işlemleri dikkatli yapılmalıdır, yanlışlıkla veri kaybına neden olabilir.
 
-#### `Notepad.exe` Komutu
-Bu komut notlar uygulamasını açar.<br>
->Kullanım şekli : notepad.exe
+#### **shutdown /s /t** Komutu
+Bilgisayarı kapatır veya yeniden başlatır.
 ```
-notepad.exe
+> Kullanım Şekli : shutdown /s /t 30
 ```
-![notepad exe](https://github.com/user-attachments/assets/7ceae548-5e6f-4b8d-b6ae-5d1c733c98cf)
+![photo_2024-11-17_03-06-37](https://github.com/user-attachments/assets/be98330e-c444-4e8e-9048-28ad729f1f4a)
 
-#### `Taskmgr.exe` Komutu
-Bu komut görev yöneticisini çalıştırır.<br>
->Kullanım Şekli : taskmgr.exe
-```
-taskmgr.exe
-```
-![taskmgr exe](https://github.com/user-attachments/assets/73b165ba-95af-4b13-87ea-7c011c3cbab0)
-
-#### `Cleanmgr.exe` Komutu
-Bu komut disk temizleme uygulamasını açar.<br>
->Kullanım Şekli : cleanmgr.exe
-```
-cleanmgr.exe
-```
-![cleanmgr exe](https://github.com/user-attachments/assets/e78eca73-1eef-42c5-90c1-708b24932796)
-
-#### `Devmgmt.msc` Komutu
-Bu komut aygıt yöneticisini açar.<br>
->Kullanım Şekli : devmgmt.msc
-```
-devmgmt.msc
-```
-![aygıt](https://github.com/user-attachments/assets/5dbff3f3-04a3-46c4-9d01-c6304e16f678)
-
-
-#### `Mspaint.exe` Komutu
-Bu komut paint uygulamasını açar.<br>
->Kullanım Şekli : mspaint.exe
-```
-mspaint.exe
-```
-![paint](https://github.com/user-attachments/assets/e12370de-1af9-4bde-b2f9-96a7c8368315)
-
-
-#### `Calc.exe` Komutu
-Bu komut hesap makinesini açar.<br>
->Kullanım Şekli : calc.exe
-```
-calc.exe
-```
-![calc](https://github.com/user-attachments/assets/83f9639d-11ce-43aa-aa5a-f507341c906e)
-
-
-
-#### `Msconfig.exe` Komutu
-Bu komut sistem ayarları uygulamasını açar.<br>
->Kullanım Şekli : msconfig.exe
-```
-msconfig.exe
-```
-![config](https://github.com/user-attachments/assets/0540869c-1146-4740-9cfc-398f576052a5)
-
+> [!IMPORTANT]
+> 30 saniye sonra bilgisayar kapanacaktır. Eğer işlem iptal edilmek isteniyorsa, shutdown /a komutunu kullanabilirsiniz.
