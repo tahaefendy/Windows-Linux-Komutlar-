@@ -17,8 +17,9 @@ mkdir komutu, yeni bir klasör oluşturmak için kullanılır.
 ```
 > Kullanım Şekli: mkdir "Yeni Klasör"
 ```
+<br>
 
-#### **rmdir** Komutu
+#### **rmdir** Komutu 
 rmdir komutu, belirtilen bir klasörü silmek için kullanılır.
 ```
 > Kullanım Şekli : rmdir Silinecek_Klasör
@@ -28,6 +29,7 @@ rmdir komutu, belirtilen bir klasörü silmek için kullanılır.
 
 > [!CAUTION]
 > Klasörün içinde dosya varsa, rmdir komutu çalışmaz. Klasörü silebilmek için önce içindeki dosyaları silmeniz gerekebilir.
+<br>
 
 #### **cd** Komutu
 Belirtilen klasöre geçiş yapar.
@@ -52,6 +54,7 @@ Bir dosya veya uygulamayı başlatır.
 > Kullanım Şekli : start uygulama.exe
 ```
 ![photo_2024-11-17_03-04-41](https://github.com/user-attachments/assets/c506113c-b5e3-460e-bcd5-5f8fd2d5eb89)
+<br>
 
 #### **dir** Komutu
 Geçerli dizindeki dosya ve klasörleri listeler.
@@ -59,6 +62,7 @@ Geçerli dizindeki dosya ve klasörleri listeler.
 > Kullanım Şekli : dir
 ```
 ![photo_2024-11-17_02-45-39](https://github.com/user-attachments/assets/ec77c519-3ff4-4db5-afec-4c892ea94e04)
+<br>
 
 #### **tree** Komutu
 Belirtilen bir yolun hiyerarşik dizin yapısını görüntüler.
@@ -66,6 +70,7 @@ Belirtilen bir yolun hiyerarşik dizin yapısını görüntüler.
 > Kullanım şekli : tree
 ```
 ![photo_2024-11-17_02-47-45](https://github.com/user-attachments/assets/af661a79-c7fb-4bb0-9cef-6aa12dac2fc3)
+<br>
 
 #### **echo** Komutu
 Belirtilen metni ekrana yazdırır veya bir dosyaya kaydeder.
@@ -77,6 +82,7 @@ Belirtilen metni ekrana yazdırır veya bir dosyaya kaydeder.
 
 > [!TIP]
 > Eğer metni bir dosyaya yazdırmak isterseniz, > işaretini kullanarak yönlendirebilirsiniz.
+<br>
 
 #### **type** Komutu
 Belirtilen dosyanın içeriğini görüntüler.
@@ -87,6 +93,7 @@ Belirtilen dosyanın içeriğini görüntüler.
 
 > [!WARNING]
 > Arama sırasında büyük ve küçük harf duyarlılığına dikkat edin. Metni tam yazmalısınız, aksi takdirde sonuç almayabilirsiniz.
+<br>
 
 #### **find** Komutu
 Bir dosyada belirli bir metni arar.
@@ -97,6 +104,7 @@ Bir dosyada belirli bir metni arar.
 
 > [!WARNING]
 > Arama sırasında büyük ve küçük harf duyarlılığına dikkat edin. Metni tam yazmalısınız, aksi takdirde sonuç almayabilirsiniz.
+<br>
 
 #### **copy** Komutu
 Bir dosyayı başka bir yere kopyalar.
@@ -108,6 +116,7 @@ Bir dosyayı başka bir yere kopyalar.
 
 > [!IMPORTANT]
 > Kopyalanacak dosyanın yolu tam olarak belirtilmelidir. Klasör adı boşluk içeriyorsa, tırnak işaretleri kullanın.
+<br>
 
 #### **move** Komutu
 Bir dosyayı başka bir konuma taşır.
@@ -119,6 +128,7 @@ Bir dosyayı başka bir konuma taşır.
 
 > [!WARNING]
 > Taşıma işlemi, dosyayı orijinal konumundan kaldırır. Eğer yanlış yere taşırsanız, dosya kaybolabilir.
+<br>
 
 #### **ren** Komutu
 Bir dosyanın veya klasörün adını değiştirir.
@@ -130,6 +140,7 @@ Bir dosyanın veya klasörün adını değiştirir.
 
 > [!CAUTION]
 > Dosya adı değiştirildiğinde, dosyanın uzantısı (örneğin .txt) değiştirilemez.
+<br>
 
 #### **del** Komutu
 Belirtilen dosyayı kalıcı olarak siler.
@@ -138,6 +149,7 @@ Belirtilen dosyayı kalıcı olarak siler.
 ```
 ![photo_2024-11-17_02-58-44](https://github.com/user-attachments/assets/20236bcc-7d87-40ac-837d-369082edc668)
 ![photo_2024-11-17_02-58-46](https://github.com/user-attachments/assets/fbecf2c0-03a5-46e0-8f2d-b804002d26c3)
+<br>
 
 ## Sistem Komutları
 
@@ -147,6 +159,7 @@ Bilgisayarın sistem bilgilerini görüntüler.
 > Kullanım Şekli : systeminfo
 ```
 ![photo_2024-11-17_03-00-00](https://github.com/user-attachments/assets/06040b2d-97ea-42ee-aced-041672de2231)
+<br>
 
 #### **ipconfig** Komutu
 Ağ bağdaştırıcılarının yapılandırmalarını ve IP adreslerini gösterir.
@@ -154,6 +167,7 @@ Ağ bağdaştırıcılarının yapılandırmalarını ve IP adreslerini gösteri
 >Kullanım şekli : ipconfig
 ```
 ![photo_2024-11-17_03-01-09](https://github.com/user-attachments/assets/728c2716-8909-4207-a976-b72219c53f1b)
+<br>
 
 #### **tasklist** Komutu
 Çalışan işlemleri listeler.
@@ -161,6 +175,7 @@ Ağ bağdaştırıcılarının yapılandırmalarını ve IP adreslerini gösteri
 > Kullanım Şekli : tasklist
 ```
 ![photo_2024-11-17_03-01-55](https://github.com/user-attachments/assets/0c7361ab-d5ea-4209-b1ac-2a16a6dbec70)
+<br>
 
 ## Tarih ve Saat Komutları
 
@@ -170,6 +185,7 @@ Güncel tarihi görüntüler.
 >Kullanım Şekli : date /T
 ```
 ![photo_2024-11-17_03-03-01](https://github.com/user-attachments/assets/5495895d-1b2f-4cef-a1eb-f01a0df42cba)
+<br>
 
 #### **time /T** Komutu
 Güncel saati görüntüler.
@@ -177,6 +193,7 @@ Güncel saati görüntüler.
 > Kullanım Şekli : time /T
 ```
 ![photo_2024-11-17_03-03-03](https://github.com/user-attachments/assets/a27617e1-634f-494a-becd-826b76ab57c5)
+<br>
 
 ## Disk Yönetimi ve Kapatma Komutları
 
@@ -189,6 +206,7 @@ Disk bölümlerini ve yapılandırmalarını yönetmek için kullanılır.
 
 > [!WARNING]
 > Disk bölümleme işlemleri dikkatli yapılmalıdır, yanlışlıkla veri kaybına neden olabilir.
+<br>
 
 #### **shutdown /s /t** Komutu
 Bilgisayarı kapatır veya yeniden başlatır.
